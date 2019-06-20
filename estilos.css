@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding:3px;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+    .header{
+        display: flex;
+        margin-right: 30px;
+        justify-content: space-between;
+        align-content: space-between;
+        margin-left: 0px;
+    }
+    .Inicio{
+       width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: space-between;
+        
+    }
+        .Inicio img{
+            width: 30%;
+        }
+        .nav1{
+            
+            display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            align-items: center;
+            width: 50%;
+            margin-right: 80px;
+            
+        }
+            .nav1 > a{
+                color: #4e4e4e;
+                margin-left: 30px;
+                
+            }
+    .Secc1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+        .Secc1 img{
+            width: 100%;
+            
+        }
+        
+    .Secc2{
+        color: #4e4e4e;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: left;
+        margin: 80px;
+    }
+        .Secc2 form{
+            margin-top: 40px;
+            
+        }
+    .Secc3{
+        display: flex;
+        flex-flow: column wrap;
+        color: #4e4e4e;
+    }
+        .articulos1{
+            display: flex;
+            flex-direction: row;
+            
+            justify-content: center;
+            align-content: center;
+
+            
+        }
+            .InteriorArt{
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: space-between;
+                align-content: space-between;
+                margin-right: 30px;
+                
+                width: 40%;
+                
+            }
+    
+    .Secc4{
+        text-align: center;
+        background: #b8b2a6;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+        .new{
+            
+            width: 350px;
+            text-align: center;
+        }
+        .bordesP{
+            border-bottom: 1px solid gray;
+        }
+    .Secc5{
+        margin-top: 70px;
+        color: #4e4e4e;
+    }
+    .Secc6{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        text-align: center;
+    }    
+        .b2{
+            cursor: pointer;
+            padding: 15px;
+            color: #5c7658;
+            background: transparent;
+            border: 1px solid #000;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+    .foot{
+        color: #4e4e4e;
+        background: #b8b2a6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 80px;
+        padding-right: 80px;
+        height: 100px;;
+    }
+        .RedesS{
+            background: #5c7658
+            display: flex;
+            text-align: center;
+            
+            
+        }
+            .RedesS a{
+                cursor: pointer;
+            }
+            .nav2 a{
+                color: #4e4e4e;
+            }
+    
+       
+        
+    
+                
+    
+        
